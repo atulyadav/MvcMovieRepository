@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "UploadFile";
+}
+
+<h2>UploadFile</h2>
+
+
+@using (Html.BeginForm("UploadFile", "Movie", FormMethod.Post, new { enctype="multipart/form-data"}))
+{
+    @Html.ValidationSummary();
+    <ol>
+        <li class="sfile">
+            <input type="file" id="fileToUpload" name="file"/>
+            <span class="field-validation-error" id="vfile"></span>
+        </li>       
+    </ol>
+    <input  type="submit" id="btnSubmit" value="upload"/>
+}
+
+
+<script type="text/javascript">
+
+    $(function () {
+        $("#fileToUpload").change(function () { CheckFile(); });
+    });
+
+    function CheckFile() {
+        var file = GetNameFromPath($("fileToUpload").val());
+
+        if (file != null) {
+            var extention = file.substr(file.lastIndexOf('.') + 1);
+            switch(extention)
+            {
+                case 'mp3':
+                    flag = true;
+                    break;
+                default:
+                    flag = false;
+            }
+        }
+        if (flag == false) {
+            $("#vfile").text("Upload Only mp3 files");
+            return false;
+        }
+        else {
+            var fileSize = GetFileSize('fileTOUpload');
+            if (fileSize > 3) {
+                $("#vfile").text("Can not Upload ");
+                return false;
+            }
+            else {
+                $("#vfile").text("");
+            }
+        }
+    }
+
+    $("#btnSubmit").live("click", function () {
+        if ($('#fileToUpload').val() == "") {
+            $("#vfile").html("Please upload file");
+            return false;
+        }
+        else {
+            return checkfile();
+        }
+    });
+
+    //get file path from client system
+    function getNameFromPath(strFilepath) {
+        var objRE = new RegExp(/([^\/\\]+)$/);
+        var strName = objRE.exec(strFilepath);
+
+        if (strName == null) {
+            return null;
+        }
+        else {
+            return strName[0];
+        }
+    }
+
+    function GetFileSize(fileid) {
+        try {
+            var fileSize = 0;
+            //for IE
+            if ($.browser.msie) {
+                //before making an object of ActiveXObject, 
+                //please make sure ActiveX is enabled in your IE browser
+                var objFSO = new ActiveXObject("Scripting.FileSystemObject"); var filePath = $("#" + fileid)[0].value;
+                var objFile = objFSO.getFile(filePath);
+                var fileSize = objFile.size; //size in kb
+                fileSize = fileSize / 1048576; //size in mb 
+            }
+                //for FF, Safari, Opeara and Others
+            else {
+                fileSize = $("#" + fileid)[0].files[0].size //size in kb
+                fileSize = fileSize / 1048576; //size in mb 
+            }
+            return fileSize;
+        }
+        catch (e) {
+            alert("Error is :" + e);
+        }
+    }
+</script>
