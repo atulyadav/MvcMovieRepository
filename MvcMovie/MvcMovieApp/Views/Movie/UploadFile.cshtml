@@ -5,6 +5,7 @@
 <h2>UploadFile</h2>
 
 
+
 @using (Html.BeginForm("UploadFile", "Movie", FormMethod.Post, new { enctype="multipart/form-data"}))
 {
     @Html.ValidationSummary();
@@ -17,7 +18,12 @@
     <input  type="submit" id="btnSubmit" value="upload"/>
 }
 
-
+<p>@{
+    if(ViewBag.Message!="")
+     {
+         @ViewBag.Message
+     }
+     }</p>
 <script type="text/javascript">
 
     $(function () {
@@ -44,7 +50,7 @@
         }
         else {
             var fileSize = GetFileSize('fileTOUpload');
-            if (fileSize > 3) {
+            if (fileSize > 5) {
                 $("#vfile").text("Can not Upload ");
                 return false;
             }

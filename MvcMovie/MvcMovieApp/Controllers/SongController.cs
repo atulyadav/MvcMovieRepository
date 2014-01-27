@@ -101,5 +101,20 @@ namespace MvcMovieApp.Controllers
                 return View();
             }
         }
+
+        [HttpGet]
+        public ActionResult Play()
+        {
+            try
+            {
+                // TODO: Add delete logic here
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
     }
 }

@@ -1,0 +1,16 @@
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\MvcMovie.DateLayer.dll.config
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\MvcMovie.DateLayer.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\MvcMovie.DateLayer.pdb
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\EntityConfiguration.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\EntityFramework.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\Ionic.Zip.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\MvcMovie.DomainClasses.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\EntityConfiguration.pdb
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\MvcMovie.DomainClasses.pdb
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\EntityFramework.xml
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\bin\Debug\Ionic.Zip.xml
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\obj\Debug\MvcMovie.DateLayer.csprojResolveAssemblyReference.cache
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\obj\Debug\MvcMovie.DateLayer.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DateLayer\obj\Debug\MvcMovie.DateLayer.pdb

@@ -1,0 +1,12 @@
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\MvcMovie.DomainClasses.dll.config
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\MvcMovie.DomainClasses.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\MvcMovie.DomainClasses.pdb
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\EntityFramework.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\EntityFramework.SqlServer.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\Ionic.Zip.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\EntityFramework.xml
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\EntityFramework.SqlServer.xml
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\bin\Debug\Ionic.Zip.xml
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\obj\Debug\MvcMovie.DomainClasses.csprojResolveAssemblyReference.cache
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\obj\Debug\MvcMovie.DomainClasses.dll
+F:\GitHub\MvcMovieRepository\MvcMovie\Mvc.Movie.DomainClasses\obj\Debug\MvcMovie.DomainClasses.pdb
